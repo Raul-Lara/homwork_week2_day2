@@ -1,0 +1,11 @@
+
+#Write a function that when given an integer as an argument,
+#returns "Even" if the number is even, and "Odd" if the number is odd. 
+
+def even_odd(num):
+    if num  % 2 == 0:
+      print("even")
+    else:
+      print("Odd")
+
+even_odd(123456789)    
